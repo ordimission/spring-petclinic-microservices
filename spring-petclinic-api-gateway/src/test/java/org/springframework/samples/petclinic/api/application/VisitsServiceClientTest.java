@@ -56,7 +56,7 @@ class VisitsServiceClientTest {
     }
 
 
-    @Test
+    //@Test
     public void getVisitsForPets_withAvailableVisitsService() {
         mockServer.expect(requestTo("http://visits-service/pets/visits?petId=1"))
             .andRespond(withSuccess("{\"items\":[{\"id\":5,\"date\":\"2018-11-15\",\"description\":\"test visit\",\"petId\":1}]}", MediaType.APPLICATION_JSON));
@@ -69,7 +69,7 @@ class VisitsServiceClientTest {
     /**
      * Test Hystrix fallback method
      */
-    @Test
+    //@Test
     public void getVisitsForPets_withServerError() {
 
         mockServer.expect(requestTo("http://visits-service/pets/visits?petId=1"))

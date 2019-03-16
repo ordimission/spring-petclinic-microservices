@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework.samples.petclinic.admin</groupId>
+    <groupId>com.ordimission</groupId>
     <artifactId>spring-petclinic-admin-server</artifactId>
     <packaging>jar</packaging>
     <description>Spring Boot Admin server</description>
 
     <parent>
-        <groupId>org.springframework.samples</groupId>
+        <groupId>com.ordimission</groupId>
         <artifactId>spring-petclinic-microservices</artifactId>
         <version>2.0.6</version>
     </parent>
